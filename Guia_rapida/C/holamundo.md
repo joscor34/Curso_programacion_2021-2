@@ -13,7 +13,7 @@ Acontinuación procederé a explicar algunas cosas sobre el programa
 ```
 int main()
 {
-  std::cout << "Hola, mundo";
+  // codigo
   return 0;
 }
 ```
