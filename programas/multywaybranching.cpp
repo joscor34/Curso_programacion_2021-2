@@ -15,7 +15,7 @@ int main()
   else if (creditsEarnet >= 30)
     cout << "Su estatus es: SOPHOMORE" << endl;
   else
-    cout << "Su estatus es: FRESHMAN";
+    cout << "Su estatus es: FRESHMAN" << endl;
 
   return 0;
 }
