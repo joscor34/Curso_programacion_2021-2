@@ -1,7 +1,7 @@
 #ifndef FUNCTIONS
 #define FUNCTIONS
 
-#define N 4
+#define N 5
 
 void leerMatriz(int[N][N], int);
 void crearMatriz(int[N][N], int);
