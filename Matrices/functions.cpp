@@ -9,9 +9,9 @@ void leerMatriz(int matrix[N][N], int length)
   {
     for (int j = 0; j < length; j++)
     {
-      cout << matrix[i][j] << " ";
+      cout << "| " << matrix[i][j] << " ";
     }
-    cout << endl;
+    cout << "|" << endl;
   }
 }
 
@@ -41,9 +41,9 @@ void crearTraspuesta(int matrix[N][N], int transpose[N][N], int length)
   {
     for (int j = 0; j < length; j++)
     {
-      cout << transpose[i][j] << " ";
+      cout << "| " << transpose[i][j] << " ";
     }
-    cout << endl;
+    cout << " |" << endl;
   }
 }
 
@@ -62,9 +62,9 @@ void crearRTvertical(int matrix[N][N], int rotated[N][N], int length)
   {
     for (int j = 0; j < length; j++)
     {
-      cout << rotated[i][j] << " ";
+      cout << "| " << rotated[i][j] << " ";
     }
-    cout << endl;
+    cout << " |" << endl;
   }
 }
 
@@ -83,9 +83,9 @@ void crearRTHorizontal(int matrix[N][N], int rotated[N][N], int length)
   {
     for (int j = 0; j < length; j++)
     {
-      cout << rotated[i][j] << " ";
+      cout << "| " << rotated[i][j] << " ";
     }
-    cout << endl;
+    cout << " |" << endl;
   }
 }
 
@@ -104,8 +104,8 @@ void crearRTDiagonal(int matrix[N][N], int rotated[N][N], int length)
   {
     for (int j = 0; j < length; j++)
     {
-      cout << rotated[i][j] << " ";
+      cout << "| " << rotated[i][j] << " ";
     }
-    cout << endl;
+    cout << " |" << endl;
   }
 }
