@@ -1,6 +1,6 @@
 #include <iostream>
 #include "functions.cpp"
-#define N 4
+#define N 5
 
 using namespace std;
 
